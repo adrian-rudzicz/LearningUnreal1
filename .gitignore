@@ -47,3 +47,5 @@ Build/
 # Precompiled headers
 *.pch
 *.gch
+
+*.swp
