@@ -1,31 +1,32 @@
 {
-	"FileVersion": 3,
-	"EngineAssociation": "5.6",
-	"Category": "",
-	"Description": "Unreal Learning Kit: Game Design, Robotics, and Block Based Game",
-	"Modules": [
-		{
-			"Name": "UnrealLearningKit",
-			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"Engine"
-			]
-		}
-	],
-	"Plugins": [
-		{
-			"Name": "Bridge",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Mac",
-				"Linux"
-			]
-		},
-		{
-			"Name": "ModelingToolsEditorMode",
-			"Enabled": true
-		}
-	]
+  "FileVersion": 3,
+  "EngineAssociation": "5.6",
+  "Category": "",
+  "Description": "Unreal Learning Kit: Game Design, Robotics, and Block Based Game",
+  "Modules": [
+    {
+      "Name": "UnrealLearningKit",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "Bridge",
+      "Enabled": true,
+      "SupportedTargetPlatforms": [
+        "Win64",
+        "Mac",
+        "Linux"
+      ]
+    },
+    {
+      "Name": "ModelingToolsEditorMode",
+      "Enabled": true
+    }
+  ],
+  "TargetPlatforms": [],
+  "AdditionalRootDirectories": [],
+  "AdditionalPluginDirectories": [],
+  "EpicSampleNameHash": ""
 }
